@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="A walkthrough of Clinic Desk for independent dental practices. See the day, check in the right visit and find the contact your office has on record.">
+<meta name="theme-color" content="#f5efe4">
+<title>Clinic Desk for dental practices | Mission Canvas</title>
+<link rel="stylesheet" href="site.css">
+<script src="demo.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap masthead">
+    <a class="logo" href="./" aria-label="Clinic Desk by Mission Canvas"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Mission Canvas</a>
+    <nav aria-label="Main navigation">
+      <a href="#workflow">See the workflow</a>
+      <a href="#fit">Pilot questions</a>
+      <a class="button outline small" href="https://micalneill-missioncanvas.zohobookings.com/4941251000000076035?Ref=w01">Talk to us</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <p class="eyebrow">Clinic Desk for independent dental practices</p>
+    <h1>Keep your<br class="hero-break"> front desk<br class="hero-break"> <em>moving.</em></h1>
+    <p class="lede">See today’s schedule, check in the right visit, and find the contact your office has on record. Pick up where you left off when the phone rings.</p>
+    <div class="actions">
+      <a class="button primary" href="#workflow">Walk through a day</a>
+      <a class="plain" href="#fit">See if it fits your office</a>
+    </div>
+  </div>
+  <figure class="hero-image">
+    <img src="assets/reception.webp" alt="Illustrative photo of a receptionist helping a patient at an independent dental office" width="1320" height="990" fetchpriority="high">
+  </figure>
+</section>
+
+<section class="workflow" id="workflow">
+  <div class="wrap">
+    <div class="section-intro">
+      <div>
+        <p class="eyebrow">A morning at the desk</p>
+        <h2>What happens when the phone rings mid-check-in?</h2>
+      </div>
+      <p>Clara arrives for her 9:00 visit. While you’re checking her in, a colleague asks who to call about Margaret’s appointment. Here’s what the desk can see.</p>
+    </div>
+    <div class="demo" data-demo>
+      <div class="demo-sidebar">
+        <div class="step-controls" aria-label="Walkthrough steps">
+          <button type="button" id="tab-huddle" data-step="huddle" aria-controls="panel-huddle" aria-pressed="true">Start with today’s huddle</button>
+          <button type="button" id="tab-arrival" data-step="arrival" aria-controls="panel-arrival" aria-pressed="false">Check in Clara</button>
+          <button type="button" id="tab-contact" data-step="contact" aria-controls="panel-contact" aria-pressed="false">Find Margaret’s contact</button>
+        </div>
+        <p class="demo-label">Interactive example with fictional data</p>
+      </div>
+      <div class="demo-stage">
+        <section class="demo-panel" id="panel-huddle" aria-labelledby="tab-huddle">
+          <h3>See what needs attention before the first visit.</h3>
+          <dl class="example-list">
+            <div><dt>9:00 AM</dt><dd>Clara Mendez <span>First visit</span></dd></div>
+            <div><dt>10:00 AM</dt><dd>Margaret Hale <span>Call about her visit</span></dd></div>
+          </dl>
+          <p>Today’s huddle puts first visits, calls to make, and the waitlist beside the schedule.</p>
+        </section>
+        <section class="demo-panel" id="panel-arrival" aria-labelledby="tab-arrival">
+          <h3>Mark the visit you have open.</h3>
+          <div class="visit-example"><div><strong>Clara Mendez</strong><small>9:00 AM appointment</small></div><span id="arrival-status" class="visit-status">Booked</span></div>
+          <button type="button" class="button outline small" id="arrive">Mark arrived</button>
+          <p id="arrival-result" aria-live="polite">Clara’s card is open. The arrival will be recorded on this visit.</p>
+        </section>
+        <section class="demo-panel" id="panel-contact" aria-labelledby="tab-contact">
+          <h3>Open Margaret’s card for the current contact.</h3>
+          <div class="visit-example contact-example"><div><strong>Susan Hale</strong><small>Margaret’s recorded contact · daughter</small></div><span class="visit-status">•••• 0131</span></div>
+          <p>Clara’s arrival stays in Clara’s history. Margaret’s card looks up the contact her record authorizes when you open it.</p>
+        </section>
+      </div>
+    </div>
+
+    <figure class="product">
+      <figcaption><strong>See it in Clinic Desk Preview</strong><span>Actual app screenshot · fictional schedule</span></figcaption>
+      <a href="assets/clinic-preview.webp" target="_blank" rel="noopener"><img src="assets/clinic-preview.webp" alt="Clinic Desk Preview showing today’s huddle, Clara marked arrived, Margaret’s open visit with Susan’s masked contact, and the desk’s action history" width="1200" height="925" loading="lazy"></a>
+      <a class="plain image-link" href="assets/clinic-preview.webp" target="_blank" rel="noopener">Open full-size screenshot</a>
+    </figure>
+  </div>
+</section>
+
+<section class="fit wrap" id="fit">
+  <div>
+    <p class="eyebrow">Before you try a pilot</p>
+    <h2>Will it fit your front desk?</h2>
+    <p>Bring your office manager, the name of your scheduler, and one interruption you’d like to handle better.</p>
+  </div>
+  <div class="questions">
+    <details><summary>What can my staff try today?</summary><p>We’ll walk through a fictional appointment and contact in the current Linux desktop preview. Your staff can see the schedule, use the Arrived button or a typed command, and check the visit’s history after reopening.</p></details>
+    <details><summary>Will it work with our scheduler?</summary><p>Tell us what you use for scheduling and where your team keeps contact details. We’ll review the handoff and confirm the setup your office would need before you decide on a pilot.</p></details>
+    <details><summary>Where does the preview keep its data?</summary><p>The desktop preview works offline and stores its fictional schedule on the computer running it. We’ll walk through access and backup expectations with your office and IT contact before considering live records.</p></details>
+    <details><summary>What would the pilot cost?</summary><p>We’ll scope one office and a specific desk workflow with you, then discuss setup, support, and pricing before you commit.</p></details>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap close-inner">
+    <div><h2>Bring us one busy morning.</h2><p>Tell us what your team juggles between arrivals, callbacks, and the schedule. We’ll walk it through together.</p></div>
+    <a class="button light" href="https://micalneill-missioncanvas.zohobookings.com/4941251000000076035?Ref=w01">Talk through a pilot</a>
+  </div>
+</section>
+</main>
+<footer class="wrap foot"><span>Clinic Desk by Mission Canvas</span><a href="https://pretendhome.github.io/">Mission Canvas review site</a></footer>
+</body>
+</html>
