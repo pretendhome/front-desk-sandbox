@@ -50,11 +50,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .site-header { border-bottom: 1px solid var(--line); }
 .masthead, .foot { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .logo { display: inline-flex; align-items: center; gap: 11px; font-weight: 760; text-decoration: none; white-space: nowrap; }
-.mark { display: grid; width: 25px; height: 24px; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); gap: 2px; }
-.mark i { background: var(--clay); border-radius: 2px; }
-.mark i:nth-child(2) { background: #d47050; }
-.mark i:nth-child(3) { background: #e2ac72; }
-.mark i:nth-child(4) { background: var(--ember); }
+.logo img { width: 130px; }
 nav { display: flex; align-items: center; gap: 28px; font-size: .9rem; }
 nav a { text-decoration: none; }
 nav a:hover, .foot a:hover { text-decoration: underline; text-underline-offset: 4px; }
